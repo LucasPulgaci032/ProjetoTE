@@ -1,0 +1,106 @@
+body {
+    background-image:url(images.png) ;
+    
+}
+
+#conteudo{
+    height: 10cm;
+    width: 10cm;
+    background-color: white;
+    border-radius: 1cm;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+  
+
+}
+#title{
+    height: 2cm;
+    width: 10cm;
+    background-color: white;
+    position: relative;
+    left: 12cm;
+    border-radius: 10px;
+}
+
+#mural{
+    
+   border-radius: 1cm;
+   left: 4.5cm;
+   position: absolute;
+   top: 10%;
+ 
+}
+
+#maker{
+    border-radius: 1cm;
+    left: 3cm;
+    position: absolute;
+    top: 25%;
+    
+}
+
+#tarefas{
+    border-radius: 3cm;
+    left: 3.5cm;
+    position: absolute;
+    top: 40%;
+}
+
+@media screen and (min-width: 360px) and (max-width: 740px) {
+    #title{
+        height: 2cm;
+        width: 6cm;
+        background-color: white;
+        position: absolute;
+        left: 5.5cm; 
+        font-size: small;
+    }
+
+    #conteudo {
+      height: 7cm;
+      width: 7cm;
+      background-color: white;
+      border-radius: 1cm;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    #mural{
+        border-radius: 1cm;
+        left: 3cm;
+        position: absolute;
+        top: 10%;
+      
+    } 
+    #maker{
+        border-radius: 1cm;
+        left: 1.8cm;
+        position: absolute;
+        top: 25%;
+
+} 
+#tarefas{
+    border-radius: 3cm;
+    left: 2.3cm;
+    position: absolute;
+    top: 40%;
+}
+}
+
+@media screen and (max-width: 320px) {
+#title{
+    height: 2cm;
+    width: 6cm;
+    background-color: rgb(170, 12, 12);
+    position: relative;
+    right: 2cm; 
+    font-size: small;  
+}
+#mural{
+    border-radius: 1cm;
+    left: 3cm;
+    position: absolute;
+    top: 10%;
+}  }

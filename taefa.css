@@ -1,0 +1,41 @@
+body {
+    animation: piscar 1s infinite alternate;
+    background-color: black; /* Cor de fundo inicial */
+  
+}
+
+#tarefass{
+   height: 15cm;
+   width: 15cm;
+   background-color: orange;
+   position: absolute;
+   left: 10cm;
+   top: 10%;
+}
+
+
+
+
+@keyframes piscar {
+    0% {
+        background-color: black;
+    }
+    50% {
+        background-color: orange; /* Vermelho */
+    }
+    100% {
+        background-color: black; /* Azul claro */
+    }
+}
+
+@media screen and(min-width: 360px) and (max-width: 740px){
+    #tarefass{
+        height: 8cm;
+        width: 12cm;
+        font-size: small;
+        background-color: orange;
+        position: absolute;
+        left: 10cm;
+        top: 10%;
+     }
+}

@@ -1,0 +1,9 @@
+body{
+    background-color: gray;
+}
+
+#botoesAcesso{
+    height: 10cm;
+    width: 10cm;
+    background-color: rgb(216, 112, 15);
+}
